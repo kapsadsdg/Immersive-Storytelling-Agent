@@ -1,0 +1,23 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Secrets and local data: never commit these
+.env
+saves/*.json
+
+# Editors, OS and local tooling
+.idea/
+.vscode/
+.claude/
+.DS_Store
+Thumbs.db
+
+# Optional sound files are not distributed: add your own locally (see the README.txt in that folder)
+story_agent/web/static/audio/*
+!story_agent/web/static/audio/README.txt

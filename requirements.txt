@@ -1,0 +1,18 @@
+# Runtime (also declared in pyproject.toml)
+pydantic>=2.8
+python-dotenv>=1.0
+rich>=13.7
+
+# LLM providers (install both; only the configured one is used at runtime)
+anthropic>=1.13.0
+openai>=3.0
+
+# Web interface
+fastapi>=0.115
+uvicorn>=0.30
+
+# Development and tests
+pytest>=8.0
+httpx>=0.27
+httpx2          # used directly by the provider-adapter tests; also installed by the SDKs
+pyflakes>=3.0

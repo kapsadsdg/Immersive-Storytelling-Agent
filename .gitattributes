@@ -1,0 +1,10 @@
+# Normalise line endings in the repository; keep each script runnable on its own platform.
+* text=auto
+*.sh  text eol=lf
+*.bat text eol=crlf
+
+# Media is binary: never diff or convert it.
+*.mp3 binary
+*.wav binary
+*.ogg binary
+*.m4a binary
