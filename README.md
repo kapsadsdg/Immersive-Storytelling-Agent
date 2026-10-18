@@ -267,7 +267,6 @@ I built this prototype with **Claude Code**I worked with it in conversation: I g
 - **Sound.** I asked for music while the agents work and for click sounds. I chose to use my own audio files rather than generated or bundled sound, and to let the music follow the story's tension.
 - **Typography.** I asked for typography that heightens key moments, and chose bold. I knowingly accepted bold markup in the saved text, which departs from the brief's plain-text rule. I dropped the other ideas, such as a line of exclamation marks before turning points.
 - **Example themes.** I chose the example themes on the start page.
-- **Real play.** I played the stories end to end.
 
 ---
 
